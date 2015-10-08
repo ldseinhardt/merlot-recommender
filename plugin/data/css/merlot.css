@@ -1,0 +1,23 @@
+#main_div {
+	min-width: 1259px;
+	margin: 0 auto;
+}
+
+#merlot_recommender_wrapper {
+	width: 715px;
+	float: left;
+}
+
+.merlot_recommender_tile {
+	width: 260px;
+	margin-bottom: 110px !important;
+	float: right;
+}
+
+#merlot_recommender_tile1 > h3 {
+	background-color: rgb(155, 110, 47);
+}
+
+#merlot_recommender_tile2 > h3 {
+	background-color: rgb(74, 101, 55);
+}

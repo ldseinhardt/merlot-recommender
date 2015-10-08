@@ -1,0 +1,22 @@
+{
+  "id": "jid1-YOhjrte2zzpKSQ",
+  
+  "name": "merlot-recommender",
+
+  "title": "Merlot.org Recommender",
+  
+  "description": "This extension recommender objects for users of Merlot.org",
+  
+  "version": "1.0",
+
+  "icon": "./data/icons/icon-64.png",
+
+  "author": "Gustavo Magalhaes <glmagalhaes.mail@gmail.com>, Luan Einhardt <ldseinhardt@inf.ufpel.edu.br>, Marcelo Leão <mlcfay@inf.ufpel.edu.br>",
+
+  "permissions": {
+      "cross-domain-content": [
+        "http://www.merlot.org/merlot/viewMember.htm*", 
+        "http://127.0.0.1:8080/*"
+      ]
+  }  
+}

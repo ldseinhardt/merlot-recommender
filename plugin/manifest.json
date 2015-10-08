@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Merlot.org Recommender",
+  
+  "description": "This extension recommender objects for users of Merlot.org",
+  
+  "version": "1.0",
+  
+  "icons": { 
+    "16": "./data/icons/icon-16.png",
+    "32": "./data/icons/icon-32.png",
+    "48": "./data/icons/icon-48.png",
+    "64": "./data/icons/icon-64.png",
+    "128": "./data/icons/icon-128.png"
+  },
+
+  "author": "Gustavo Magalhaes <glmagalhaes.mail@gmail.com>, Luan Einhardt <ldseinhardt@inf.ufpel.edu.br>, Marcelo Leão <mlcfay@inf.ufpel.edu.br>",
+
+  "permissions": [
+    "http://www.merlot.org/merlot/viewMember.htm*", 
+    "http://127.0.0.1:8080/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.merlot.org/merlot/viewMember.htm*"],
+      "css": ["./data/css/merlot.css"],
+      "js": ["./data/js/jquery.js", "./data/js/merlot.js"]
+    }
+  ]  
+}
