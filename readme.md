@@ -28,7 +28,7 @@
           * Selecionar a opção `Instalar de um arquivo...`, disponível no botão de configurações (ícone de engrenagem)
           * Aceitar a instalação e ativar ela caso necessário (dado pela opção Ativar/Desativar)
 * Webservice:
- * PHP
+ * PHP >= 5.4
     * Windows:
       * Adicionar o path do java nas variáveis de ambiente
     * Linux:

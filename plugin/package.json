@@ -7,7 +7,7 @@
   
   "description": "This extension recommender objects for users of Merlot.org",
   
-  "version": "1.0",
+  "version": "0.1",
 
   "icon": "./data/icons/icon-64.png",
 
@@ -15,8 +15,8 @@
 
   "permissions": {
       "cross-domain-content": [
-        "http://www.merlot.org/merlot/viewMember.htm*", 
-        "http://127.0.0.1:8080/*"
+        "*://www.merlot.org/merlot/viewMember.htm*", 
+        "*://127.0.0.1:8080/*"
       ]
   }  
 }
