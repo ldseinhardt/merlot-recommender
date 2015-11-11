@@ -65,7 +65,7 @@ jQuery.fn.closeTile = function() {
 jQuery.fn.recommender = function(options) { 
   var self = this;
   /* Servidor local */
-  var server = "http://127.0.0.1:8080/";
+  var server = "https://test-merlot-ldseinhardt.c9users.io/merlot-recommender/webservice/";
   /* Requisição GET para o servidor com resposta em json */
   $.get(server, options, function (data) {
     /* Analisa a resposta dada pelo servidor */ 

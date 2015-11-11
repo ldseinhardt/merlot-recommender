@@ -16,7 +16,7 @@
   "permissions": {
       "cross-domain-content": [
         "*://www.merlot.org/merlot/viewMember.htm*", 
-        "*://127.0.0.1:8080/*"
+        "https://test-merlot-ldseinhardt.c9users.io/merlot-recommender/webservice/*"
       ]
   }  
 }

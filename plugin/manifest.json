@@ -17,13 +17,13 @@
 
   "permissions": [
     "*://www.merlot.org/merlot/viewMember.htm*", 
-    "*://127.0.0.1:8080/*"
+    "https://test-merlot-ldseinhardt.c9users.io/merlot-recommender/webservice/*"
   ],
 
   "content_scripts": [
     {
       "matches": [
-        "http://www.merlot.org/merlot/viewMember.htm*"
+        "*://www.merlot.org/merlot/viewMember.htm*"
       ],
       "css": [
         "./data/css/merlot.css"
@@ -35,5 +35,5 @@
     }
   ],
   
-  "manifest_version": 2,
+  "manifest_version": 2
 }
