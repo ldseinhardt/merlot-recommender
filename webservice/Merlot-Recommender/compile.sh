@@ -15,7 +15,7 @@ mkdir $PATH_BUILD
 
 javac -d $PATH_BUILD -cp "./ .:${LIBS}" "src/${PROGRAM_NAME//"."/"/"}.java"
 
-cd build/
+cd $PATH_BUILD
 
 echo "Class-Path: ${LIBS//":"/" "}" >> MANIFEST.MF
 echo "Main-Class: ${PROGRAM_NAME}" >> MANIFEST.MF
